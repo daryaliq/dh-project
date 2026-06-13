@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4391dcab19da7ed8468b0fc464d770b3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4391dcab19da7ed8468b0fc464d770b3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4391dcab19da7ed8468b0fc464d770b3 = L.map(
+                "map_4391dcab19da7ed8468b0fc464d770b3",
+                {
+                    center: [55.75, 37.62],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_531ec9dded2bd94574a519ac16ee59ab = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_531ec9dded2bd94574a519ac16ee59ab.addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+            var circle_marker_66c8c7ba2493825e21ab2fd06aca2b43 = L.circleMarker(
+                [55.751012, 37.617071],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_a49103c97025039f435cd1c2075db21a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70ddb9b903e4af39a487ecfb3a68ccaf = $(`<div id="html_70ddb9b903e4af39a487ecfb3a68ccaf" style="width: 100.0%; height: 100.0%;">Assumption Cathedral</div>`)[0];
+                popup_a49103c97025039f435cd1c2075db21a.setContent(html_70ddb9b903e4af39a487ecfb3a68ccaf);
+            
+        
+
+        circle_marker_66c8c7ba2493825e21ab2fd06aca2b43.bindPopup(popup_a49103c97025039f435cd1c2075db21a)
+        ;
+
+        
+    
+    
+            var circle_marker_c15e750a28865f44c3ccd87567944bae = L.circleMarker(
+                [55.75024, 37.61783],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_a4c65e79a1adc41c23bbb13705ecfc62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9297b74dc2617dbf0051c8d81f607ef = $(`<div id="html_c9297b74dc2617dbf0051c8d81f607ef" style="width: 100.0%; height: 100.0%;">Cathedral of the Archangel</div>`)[0];
+                popup_a4c65e79a1adc41c23bbb13705ecfc62.setContent(html_c9297b74dc2617dbf0051c8d81f607ef);
+            
+        
+
+        circle_marker_c15e750a28865f44c3ccd87567944bae.bindPopup(popup_a4c65e79a1adc41c23bbb13705ecfc62)
+        ;
+
+        
+    
+    
+            var circle_marker_b911478e799d3b1341777b57fa21058d = L.circleMarker(
+                [55.750092, 37.616949],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_780dd1bd1f69cb7345da45d3a632b7c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03b9bf0e21580bad92f37f4b5ad37722 = $(`<div id="html_03b9bf0e21580bad92f37f4b5ad37722" style="width: 100.0%; height: 100.0%;">Blagoveshchensky cathedral</div>`)[0];
+                popup_780dd1bd1f69cb7345da45d3a632b7c9.setContent(html_03b9bf0e21580bad92f37f4b5ad37722);
+            
+        
+
+        circle_marker_b911478e799d3b1341777b57fa21058d.bindPopup(popup_780dd1bd1f69cb7345da45d3a632b7c9)
+        ;
+
+        
+    
+    
+            var circle_marker_eacf530753c637d24d828fa5263b77a8 = L.circleMarker(
+                [55.751416, 37.617476],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_5780c1cddd4e62d343593c4b8aeb7ad3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28ff6f6f27d23234cead1a9efec5c558 = $(`<div id="html_28ff6f6f27d23234cead1a9efec5c558" style="width: 100.0%; height: 100.0%;">Patriarchal Chambers with the Church of the Twelve Apostles</div>`)[0];
+                popup_5780c1cddd4e62d343593c4b8aeb7ad3.setContent(html_28ff6f6f27d23234cead1a9efec5c558);
+            
+        
+
+        circle_marker_eacf530753c637d24d828fa5263b77a8.bindPopup(popup_5780c1cddd4e62d343593c4b8aeb7ad3)
+        ;
+
+        
+    
+    
+            var circle_marker_fdbf0aa389f1d55ca3087fff71e65c03 = L.circleMarker(
+                [55.750763, 37.618317],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_9187c640a58d5221f6a0e3a4adf6a292 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95fc56c219a0bbf83c31561943cb260b = $(`<div id="html_95fc56c219a0bbf83c31561943cb260b" style="width: 100.0%; height: 100.0%;">Temple of John Climacus with the bell tower of Ivan the Great</div>`)[0];
+                popup_9187c640a58d5221f6a0e3a4adf6a292.setContent(html_95fc56c219a0bbf83c31561943cb260b);
+            
+        
+
+        circle_marker_fdbf0aa389f1d55ca3087fff71e65c03.bindPopup(popup_9187c640a58d5221f6a0e3a4adf6a292)
+        ;
+
+        
+    
+    
+            var circle_marker_936de9c4a0806a3b2418e407bc8b5426 = L.circleMarker(
+                [55.750664, 37.61623],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_fc921a24376e001f105db4c7eb87ff74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7df48291ab8b850ef6d42db1a474f50b = $(`<div id="html_7df48291ab8b850ef6d42db1a474f50b" style="width: 100.0%; height: 100.0%;">Verkhospassky Cathedral (Savior of a Miraculous Image)</div>`)[0];
+                popup_fc921a24376e001f105db4c7eb87ff74.setContent(html_7df48291ab8b850ef6d42db1a474f50b);
+            
+        
+
+        circle_marker_936de9c4a0806a3b2418e407bc8b5426.bindPopup(popup_fc921a24376e001f105db4c7eb87ff74)
+        ;
+
+        
+    
+    
+            var circle_marker_c937baf314ac2389f66b57f8c2937f6d = L.circleMarker(
+                [55.750806, 37.61662],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_17efbc18ff948271ce72b278b5657d46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_749f8fb87f243ba3c5d714f8336a6fad = $(`<div id="html_749f8fb87f243ba3c5d714f8336a6fad" style="width: 100.0%; height: 100.0%;">Church of Riza</div>`)[0];
+                popup_17efbc18ff948271ce72b278b5657d46.setContent(html_749f8fb87f243ba3c5d714f8336a6fad);
+            
+        
+
+        circle_marker_c937baf314ac2389f66b57f8c2937f6d.bindPopup(popup_17efbc18ff948271ce72b278b5657d46)
+        ;
+
+        
+    
+    
+            var circle_marker_a170ce717df4830070850851cd957e89 = L.circleMarker(
+                [55.752485, 37.623196],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_2ec045c64202503cce8add55ad7be6f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_374bcbebd4f8d10d739925af50baa7aa = $(`<div id="html_374bcbebd4f8d10d739925af50baa7aa" style="width: 100.0%; height: 100.0%;">The temple of the Protection of the Blessed Virgin Mary - on the moat (Basilia Cathedral)</div>`)[0];
+                popup_2ec045c64202503cce8add55ad7be6f1.setContent(html_374bcbebd4f8d10d739925af50baa7aa);
+            
+        
+
+        circle_marker_a170ce717df4830070850851cd957e89.bindPopup(popup_2ec045c64202503cce8add55ad7be6f1)
+        ;
+
+        
+    
+    
+            var circle_marker_36c919091f4cd7d935fe3ca7fcfc1a73 = L.circleMarker(
+                [55.761684, 37.611478],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_7276a9f3b8e283f9be99330574358315 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ea834f5087f102ef729334ad6f94a12 = $(`<div id="html_8ea834f5087f102ef729334ad6f94a12" style="width: 100.0%; height: 100.0%;">The temple of the holy unconscurens of Cosmas and Damian in Shubin</div>`)[0];
+                popup_7276a9f3b8e283f9be99330574358315.setContent(html_8ea834f5087f102ef729334ad6f94a12);
+            
+        
+
+        circle_marker_36c919091f4cd7d935fe3ca7fcfc1a73.bindPopup(popup_7276a9f3b8e283f9be99330574358315)
+        ;
+
+        
+    
+    
+            var circle_marker_cd51db7c293fa27b3c5011966fdac183 = L.circleMarker(
+                [55.755842, 37.623185],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_fd2cb8174f48bf6c907fafe3b8be92e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d8fa2c722d3cb30ea79c73fa6089714 = $(`<div id="html_0d8fa2c722d3cb30ea79c73fa6089714" style="width: 100.0%; height: 100.0%;">Church of the Epiphany of the Lord of the former Epiphany monastery</div>`)[0];
+                popup_fd2cb8174f48bf6c907fafe3b8be92e9.setContent(html_0d8fa2c722d3cb30ea79c73fa6089714);
+            
+        
+
+        circle_marker_cd51db7c293fa27b3c5011966fdac183.bindPopup(popup_fd2cb8174f48bf6c907fafe3b8be92e9)
+        ;
+
+        
+    
+    
+            var circle_marker_09df807b19fed0760110e47f4aebdefc = L.circleMarker(
+                [55.752366, 37.62594],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_162ba7f8b30bd1bb2c5d268153fb1431 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_380e74d79f2581bcf9d9d2793294820f = $(`<div id="html_380e74d79f2581bcf9d9d2793294820f" style="width: 100.0%; height: 100.0%;">The Church of the Holy Great Martyr Barbara</div>`)[0];
+                popup_162ba7f8b30bd1bb2c5d268153fb1431.setContent(html_380e74d79f2581bcf9d9d2793294820f);
+            
+        
+
+        circle_marker_09df807b19fed0760110e47f4aebdefc.bindPopup(popup_162ba7f8b30bd1bb2c5d268153fb1431)
+        ;
+
+        
+    
+    
+            var circle_marker_0d2398e43f201f65acc5b11e72de462a = L.circleMarker(
+                [55.772008, 37.61341],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_789ae41f57cd8d9daf5ef5fb9b3cb412 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_677ce2330fd2d1fbbc0acfb72175b804 = $(`<div id="html_677ce2330fd2d1fbbc0acfb72175b804" style="width: 100.0%; height: 100.0%;">The temple of the Equal -to -the -Apostles Prince Vladimir at the former diocesan house (brownie) attributed to the Church of Nikolai Mirliki in Kuznetsk Sloboda</div>`)[0];
+                popup_789ae41f57cd8d9daf5ef5fb9b3cb412.setContent(html_677ce2330fd2d1fbbc0acfb72175b804);
+            
+        
+
+        circle_marker_0d2398e43f201f65acc5b11e72de462a.bindPopup(popup_789ae41f57cd8d9daf5ef5fb9b3cb412)
+        ;
+
+        
+    
+    
+            var circle_marker_76662dbb0274b64e20f9c56157728cef = L.circleMarker(
+                [55.790339, 37.595562],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_6dba2b262f7d3602b83410fb204c0d35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_868d038a763ec30e07e549bf0eca2e62 = $(`<div id="html_868d038a763ec30e07e549bf0eca2e62" style="width: 100.0%; height: 100.0%;">The temple of the All -Merciful Savior of the former Sorrow Monastery (not transferred to the Russian Orthodox Church)</div>`)[0];
+                popup_6dba2b262f7d3602b83410fb204c0d35.setContent(html_868d038a763ec30e07e549bf0eca2e62);
+            
+        
+
+        circle_marker_76662dbb0274b64e20f9c56157728cef.bindPopup(popup_6dba2b262f7d3602b83410fb204c0d35)
+        ;
+
+        
+    
+    
+            var circle_marker_a60a835855d83da0f6ca76cb9477ec9a = L.circleMarker(
+                [55.790355, 37.595652],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_4b2328db233b64c6835650f0b3765d5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1439bb400f1600ad060fb111ee4f3c54 = $(`<div id="html_1439bb400f1600ad060fb111ee4f3c54" style="width: 100.0%; height: 100.0%;">The temple of the All -Missary Savior in the former monastery cells of the former Sorrow of the Monastery (Brownie)</div>`)[0];
+                popup_4b2328db233b64c6835650f0b3765d5f.setContent(html_1439bb400f1600ad060fb111ee4f3c54);
+            
+        
+
+        circle_marker_a60a835855d83da0f6ca76cb9477ec9a.bindPopup(popup_4b2328db233b64c6835650f0b3765d5f)
+        ;
+
+        
+    
+    
+            var circle_marker_9fc7056473af03ec5106956707f3ef04 = L.circleMarker(
+                [55.752666, 37.6307],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_c3cc6df1263ba42ea36a209cae7e3567 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea135306e162412468cb2852055e5979 = $(`<div id="html_ea135306e162412468cb2852055e5979" style="width: 100.0%; height: 100.0%;">The temple of the great martyr George the Victorious (the Protection of the Blessed Virgin Mary) on the Pskov Gorka in Zaryadye</div>`)[0];
+                popup_c3cc6df1263ba42ea36a209cae7e3567.setContent(html_ea135306e162412468cb2852055e5979);
+            
+        
+
+        circle_marker_9fc7056473af03ec5106956707f3ef04.bindPopup(popup_c3cc6df1263ba42ea36a209cae7e3567)
+        ;
+
+        
+    
+    
+            var circle_marker_3af106252ae6239122c3bac3846e6389 = L.circleMarker(
+                [55.750143, 37.630948],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_e9852d1b62b0f0f3ac382c4a096430b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f30b906e2f029d19bb44325abe31104c = $(`<div id="html_f30b906e2f029d19bb44325abe31104c" style="width: 100.0%; height: 100.0%;">The temple of the conception of the righteous Anna "What is in the Corner" in Zaryadye</div>`)[0];
+                popup_e9852d1b62b0f0f3ac382c4a096430b6.setContent(html_f30b906e2f029d19bb44325abe31104c);
+            
+        
+
+        circle_marker_3af106252ae6239122c3bac3846e6389.bindPopup(popup_e9852d1b62b0f0f3ac382c4a096430b6)
+        ;
+
+        
+    
+    
+            var circle_marker_6a3f331a8c1fbd01104db42edb77dd62 = L.circleMarker(
+                [55.769232, 37.614375],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_7ae9cf4a2d13bf0fda7aaf608171b685 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0002eed4546237c1bbf46b70e3dd8b0b = $(`<div id="html_0002eed4546237c1bbf46b70e3dd8b0b" style="width: 100.0%; height: 100.0%;">The temple of the sign of the Icon of the Mother of God behind the Petrovsky Gate at the Main Directorate of the Ministry of Internal Affairs of Russia in the city of Moscow</div>`)[0];
+                popup_7ae9cf4a2d13bf0fda7aaf608171b685.setContent(html_0002eed4546237c1bbf46b70e3dd8b0b);
+            
+        
+
+        circle_marker_6a3f331a8c1fbd01104db42edb77dd62.bindPopup(popup_7ae9cf4a2d13bf0fda7aaf608171b685)
+        ;
+
+        
+    
+    
+            var circle_marker_f4b06f9606d7501b110309dcc3588ca0 = L.circleMarker(
+                [55.752487, 37.62875],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_37a537edea49c381411f5fdbd184326c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2459d7c5305f633609c2e61052df79d0 = $(`<div id="html_2459d7c5305f633609c2e61052df79d0" style="width: 100.0%; height: 100.0%;">Cathedral of the Icon of the Mother of God "Sign" of the former Znamensky monastery</div>`)[0];
+                popup_37a537edea49c381411f5fdbd184326c.setContent(html_2459d7c5305f633609c2e61052df79d0);
+            
+        
+
+        circle_marker_f4b06f9606d7501b110309dcc3588ca0.bindPopup(popup_37a537edea49c381411f5fdbd184326c)
+        ;
+
+        
+    
+    
+            var circle_marker_7ec0016073f1a54604f61224533ea941 = L.circleMarker(
+                [55.75456, 37.623962],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_79cd58a36c1c5e7d7efccf2529ccc2f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3de4e396fafc2b0ac2eb8ae2179d4be3 = $(`<div id="html_3de4e396fafc2b0ac2eb8ae2179d4be3" style="width: 100.0%; height: 100.0%;">The temple of the holy prophet of God Elijah that in China-Gorod</div>`)[0];
+                popup_79cd58a36c1c5e7d7efccf2529ccc2f7.setContent(html_3de4e396fafc2b0ac2eb8ae2179d4be3);
+            
+        
+
+        circle_marker_7ec0016073f1a54604f61224533ea941.bindPopup(popup_79cd58a36c1c5e7d7efccf2529ccc2f7)
+        ;
+
+        
+    
+    
+            var circle_marker_c6e758b02529703454ece2710b63fcb8 = L.circleMarker(
+                [55.757607, 37.627823],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_a0a30558698d1d21807940a868615560 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3ea12664358a9ad3372be9a324c9f1c = $(`<div id="html_b3ea12664358a9ad3372be9a324c9f1c" style="width: 100.0%; height: 100.0%;">The temple of the Holy Apostle John the Theologian under the elm</div>`)[0];
+                popup_a0a30558698d1d21807940a868615560.setContent(html_b3ea12664358a9ad3372be9a324c9f1c);
+            
+        
+
+        circle_marker_c6e758b02529703454ece2710b63fcb8.bindPopup(popup_a0a30558698d1d21807940a868615560)
+        ;
+
+        
+    
+    
+            var circle_marker_52f5c43313b74bb418e900d941902237 = L.circleMarker(
+                [55.753296, 37.632207],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_5fabf6c2db71b3c8984eb9949761aa4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18e6d2bea748fef254e4bd4bbc847a66 = $(`<div id="html_18e6d2bea748fef254e4bd4bbc847a66" style="width: 100.0%; height: 100.0%;">The Church of the Nativity of John the Baptist (Clement, Pope) on Varvarka</div>`)[0];
+                popup_5fabf6c2db71b3c8984eb9949761aa4a.setContent(html_18e6d2bea748fef254e4bd4bbc847a66);
+            
+        
+
+        circle_marker_52f5c43313b74bb418e900d941902237.bindPopup(popup_5fabf6c2db71b3c8984eb9949761aa4a)
+        ;
+
+        
+    
+    
+            var circle_marker_1f08bc5148082cdda367de234c90db0c = L.circleMarker(
+                [55.755476, 37.619197],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_3d0270f44d8feebbf62000c848589124 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5a91f13578c11b6fe410160c43494fc = $(`<div id="html_d5a91f13578c11b6fe410160c43494fc" style="width: 100.0%; height: 100.0%;">Cathedral of the Kazan Icon of the Mother of God on Red Square</div>`)[0];
+                popup_3d0270f44d8feebbf62000c848589124.setContent(html_d5a91f13578c11b6fe410160c43494fc);
+            
+        
+
+        circle_marker_1f08bc5148082cdda367de234c90db0c.bindPopup(popup_3d0270f44d8feebbf62000c848589124)
+        ;
+
+        
+    
+    
+            var circle_marker_2d4485e7a72aedad850655bcabfd57cd = L.circleMarker(
+                [55.75612, 37.626129],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_50750654cb6efc85046548a29898b844 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_654a71d16679a3c071076b9b3f032344 = $(`<div id="html_654a71d16679a3c071076b9b3f032344" style="width: 100.0%; height: 100.0%;">Temple of Cosmas and Damian in old panes</div>`)[0];
+                popup_50750654cb6efc85046548a29898b844.setContent(html_654a71d16679a3c071076b9b3f032344);
+            
+        
+
+        circle_marker_2d4485e7a72aedad850655bcabfd57cd.bindPopup(popup_50750654cb6efc85046548a29898b844)
+        ;
+
+        
+    
+    
+            var circle_marker_3d2285aad51d490090a53bd8994a536d = L.circleMarker(
+                [55.752544, 37.627303],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_993cb5cccbab87635a606f66b0a14c9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4126b8c0fceb162a554ac67ccd207361 = $(`<div id="html_4126b8c0fceb162a554ac67ccd207361" style="width: 100.0%; height: 100.0%;">Temple of St. Maxim of Blessed on Barvarka</div>`)[0];
+                popup_993cb5cccbab87635a606f66b0a14c9b.setContent(html_4126b8c0fceb162a554ac67ccd207361);
+            
+        
+
+        circle_marker_3d2285aad51d490090a53bd8994a536d.bindPopup(popup_993cb5cccbab87635a606f66b0a14c9b)
+        ;
+
+        
+    
+    
+            var circle_marker_96737a7a52806e0b1ddb22575084d957 = L.circleMarker(
+                [55.775777, 37.602936],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_cc3577dc76f8cb4fdf604c3541b1942f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6384f1e9698c4ecc34a960a9ca2bba9d = $(`<div id="html_6384f1e9698c4ecc34a960a9ca2bba9d" style="width: 100.0%; height: 100.0%;">Church of St. Nicholas in the New Sloboda</div>`)[0];
+                popup_cc3577dc76f8cb4fdf604c3541b1942f.setContent(html_6384f1e9698c4ecc34a960a9ca2bba9d);
+            
+        
+
+        circle_marker_96737a7a52806e0b1ddb22575084d957.bindPopup(popup_cc3577dc76f8cb4fdf604c3541b1942f)
+        ;
+
+        
+    
+    
+            var circle_marker_9acb41dd715655c358fb3c5c807bf175 = L.circleMarker(
+                [55.753762, 37.629257],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_b6c78a38c5e5065e225986e2812e6ce5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc9659cdaf7cf9b4b4807cfa85d6ce29 = $(`<div id="html_cc9659cdaf7cf9b4b4807cfa85d6ce29" style="width: 100.0%; height: 100.0%;">Church of St. Nicholas of Mirliki "Red Calling"</div>`)[0];
+                popup_b6c78a38c5e5065e225986e2812e6ce5.setContent(html_cc9659cdaf7cf9b4b4807cfa85d6ce29);
+            
+        
+
+        circle_marker_9acb41dd715655c358fb3c5c807bf175.bindPopup(popup_b6c78a38c5e5065e225986e2812e6ce5)
+        ;
+
+        
+    
+    
+            var circle_marker_ce7ed1b1a28135d6d55858450bdfed05 = L.circleMarker(
+                [55.756324, 37.609119],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_8bb8c93eb077bec8178e79e8af19e721 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_982b00bbd9430154fed6e754cec05756 = $(`<div id="html_982b00bbd9430154fed6e754cec05756" style="width: 100.0%; height: 100.0%;">The temple of St. Nicholas of Mirtaliki at the Main Directorate of the Ministry of the Interior of the Moscow Region (Brownie) attributed to the Synodal Department of the Moscow Patriarchate for interaction with the Armed Forces of Russia</div>`)[0];
+                popup_8bb8c93eb077bec8178e79e8af19e721.setContent(html_982b00bbd9430154fed6e754cec05756);
+            
+        
+
+        circle_marker_ce7ed1b1a28135d6d55858450bdfed05.bindPopup(popup_8bb8c93eb077bec8178e79e8af19e721)
+        ;
+
+        
+    
+    
+            var circle_marker_c68b2128dd7d1cda55ea781ca92eb0a1 = L.circleMarker(
+                [55.774267, 37.597799],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_9822eb77e3a9204f4e8e54ea723ea20c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_329c0cee32501967fe4e814de13b8ae5 = $(`<div id="html_329c0cee32501967fe4e814de13b8ae5" style="width: 100.0%; height: 100.0%;">The temple of St. Nicholas of the Mirliki at the Research Institute of Neurosurgery named after N. N. Burdenko (brownie) attributed to the Church of the PRPP. Sergius and Herman of Valaam miracle workers</div>`)[0];
+                popup_9822eb77e3a9204f4e8e54ea723ea20c.setContent(html_329c0cee32501967fe4e814de13b8ae5);
+            
+        
+
+        circle_marker_c68b2128dd7d1cda55ea781ca92eb0a1.bindPopup(popup_9822eb77e3a9204f4e8e54ea723ea20c)
+        ;
+
+        
+    
+    
+            var circle_marker_0be7f01ab47516d945a3c4c303420217 = L.circleMarker(
+                [55.778441, 37.604476],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_70e42ad1fb41c9b491180ad97a5fe072 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85a33a813fe0c5b4f19f9d6cfd3d3546 = $(`<div id="html_85a33a813fe0c5b4f19f9d6cfd3d3546" style="width: 100.0%; height: 100.0%;">The temple of the Monk Pimen of the Great (Life -Giving Trinity) in the new collars, which is in essence</div>`)[0];
+                popup_70e42ad1fb41c9b491180ad97a5fe072.setContent(html_85a33a813fe0c5b4f19f9d6cfd3d3546);
+            
+        
+
+        circle_marker_0be7f01ab47516d945a3c4c303420217.bindPopup(popup_70e42ad1fb41c9b491180ad97a5fe072)
+        ;
+
+        
+    
+    
+            var circle_marker_700c9987a13cd974db2e7b124697cf58 = L.circleMarker(
+                [55.767011, 37.606905],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_736da416b0b92598dfe8947580fbd1ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f44ba379c1c526d9bb7745a694efbc9a = $(`<div id="html_f44ba379c1c526d9bb7745a694efbc9a" style="width: 100.0%; height: 100.0%;">The Church of the Nativity of the Blessed Virgin Mary in Putinka, the Patriarchal Compound</div>`)[0];
+                popup_736da416b0b92598dfe8947580fbd1ad.setContent(html_f44ba379c1c526d9bb7745a694efbc9a);
+            
+        
+
+        circle_marker_700c9987a13cd974db2e7b124697cf58.bindPopup(popup_736da416b0b92598dfe8947580fbd1ad)
+        ;
+
+        
+    
+    
+            var circle_marker_b4bf5fe42e5acaaf2b35463437bd030e = L.circleMarker(
+                [55.771996, 37.613032],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_5dcfad0a3008253e73cd595ac2627173 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_007a191b784504ee89fed3c6b6ae9d77 = $(`<div id="html_007a191b784504ee89fed3c6b6ae9d77" style="width: 100.0%; height: 100.0%;">The temple of the Holy Fathers of the Local Council of 1917-1918 at the former diocesan house (brownie) attributed to the Church of St. Nicholas in the Kuznetsk Sloboda</div>`)[0];
+                popup_5dcfad0a3008253e73cd595ac2627173.setContent(html_007a191b784504ee89fed3c6b6ae9d77);
+            
+        
+
+        circle_marker_b4bf5fe42e5acaaf2b35463437bd030e.bindPopup(popup_5dcfad0a3008253e73cd595ac2627173)
+        ;
+
+        
+    
+    
+            var circle_marker_fa67efb44b1da99d66c4dbfbcdae93a0 = L.circleMarker(
+                [55.774986, 37.589444],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_a61695a8159f00f8f012c6b95eb2057c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0da8534ae096033a7e58f9b2e59bf0b8 = $(`<div id="html_0da8534ae096033a7e58f9b2e59bf0b8" style="width: 100.0%; height: 100.0%;">The temple of St. Sergius and Herman of Valaam miracle workers, the courtyard of the Transfiguration of the Valaam Stavropigial Monastery</div>`)[0];
+                popup_a61695a8159f00f8f012c6b95eb2057c.setContent(html_0da8534ae096033a7e58f9b2e59bf0b8);
+            
+        
+
+        circle_marker_fa67efb44b1da99d66c4dbfbcdae93a0.bindPopup(popup_a61695a8159f00f8f012c6b95eb2057c)
+        ;
+
+        
+    
+    
+            var circle_marker_fa4cc4851fdb6811be86aa8177db585b = L.circleMarker(
+                [55.766796, 37.615773],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_6bf6973d96e44f93ef3c6174050a0ba2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc6f212d1185f506340e867a18e6cba3 = $(`<div id="html_cc6f212d1185f506340e867a18e6cba3" style="width: 100.0%; height: 100.0%;">Temple of St. Sergius of Radonezh in nettles</div>`)[0];
+                popup_6bf6973d96e44f93ef3c6174050a0ba2.setContent(html_cc6f212d1185f506340e867a18e6cba3);
+            
+        
+
+        circle_marker_fa4cc4851fdb6811be86aa8177db585b.bindPopup(popup_6bf6973d96e44f93ef3c6174050a0ba2)
+        ;
+
+        
+    
+    
+            var circle_marker_e731f3685a7a644990b4c4ecc98102f2 = L.circleMarker(
+                [55.788079, 37.599764],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_6f3999571ab466a098d070476c6d27aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6e89f6bcd124d0e0972a4e2ea90b313 = $(`<div id="html_b6e89f6bcd124d0e0972a4e2ea90b313" style="width: 100.0%; height: 100.0%;">The temple of the Tikhvin icon of the Mother of God in nouvent</div>`)[0];
+                popup_6f3999571ab466a098d070476c6d27aa.setContent(html_b6e89f6bcd124d0e0972a4e2ea90b313);
+            
+        
+
+        circle_marker_e731f3685a7a644990b4c4ecc98102f2.bindPopup(popup_6f3999571ab466a098d070476c6d27aa)
+        ;
+
+        
+    
+    
+            var circle_marker_3aa402a0f1c65afe48140b2082c838d5 = L.circleMarker(
+                [55.754046, 37.631438],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_0f156077a9388659ab5ec66bd32cc0b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d7e11b6aaf9e2accf0c7249c55a156f = $(`<div id="html_1d7e11b6aaf9e2accf0c7249c55a156f" style="width: 100.0%; height: 100.0%;">The temple of the Holy Trinity in Nikitniki</div>`)[0];
+                popup_0f156077a9388659ab5ec66bd32cc0b2.setContent(html_1d7e11b6aaf9e2accf0c7249c55a156f);
+            
+        
+
+        circle_marker_3aa402a0f1c65afe48140b2082c838d5.bindPopup(popup_0f156077a9388659ab5ec66bd32cc0b2)
+        ;
+
+        
+    
+    
+            var circle_marker_b4af07449e6e63d3f1e70a766af099c4 = L.circleMarker(
+                [55.768901, 37.607375],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_5b3aee866a863a58c90d3ef873078816 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbca2a9805d78af48fa1b415fc9d9a0b = $(`<div id="html_cbca2a9805d78af48fa1b415fc9d9a0b" style="width: 100.0%; height: 100.0%;">Temple of the Assumption of the Blessed Virgin Mary in Putinka</div>`)[0];
+                popup_5b3aee866a863a58c90d3ef873078816.setContent(html_cbca2a9805d78af48fa1b415fc9d9a0b);
+            
+        
+
+        circle_marker_b4af07449e6e63d3f1e70a766af099c4.bindPopup(popup_5b3aee866a863a58c90d3ef873078816)
+        ;
+
+        
+    
+    
+            var circle_marker_9a4d3e7305ba4511bf53cecfdeb01226 = L.circleMarker(
+                [55.758581, 37.609837],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_9e029a245320c980acb36f96db146373 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd60f1a8d6ba1657ef9a539bc363dbe0 = $(`<div id="html_bd60f1a8d6ba1657ef9a539bc363dbe0" style="width: 100.0%; height: 100.0%;">Temple of the Assumption of the Blessed Virgin Mary on the Assumption Bolshoi</div>`)[0];
+                popup_9e029a245320c980acb36f96db146373.setContent(html_bd60f1a8d6ba1657ef9a539bc363dbe0);
+            
+        
+
+        circle_marker_9a4d3e7305ba4511bf53cecfdeb01226.bindPopup(popup_9e029a245320c980acb36f96db146373)
+        ;
+
+        
+    
+    
+            var circle_marker_0aa9dea28cd4b80d195724c421c1e037 = L.circleMarker(
+                [55.757291, 37.623645],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_a62cfe5349f9034c8df2699eaa745ba0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b0593c0954e263ca0ca22ad0f4fba60 = $(`<div id="html_3b0593c0954e263ca0ca22ad0f4fba60" style="width: 100.0%; height: 100.0%;">Temple of the Assumption of the Blessed Virgin Mary on the Chizhevsky Compound</div>`)[0];
+                popup_a62cfe5349f9034c8df2699eaa745ba0.setContent(html_3b0593c0954e263ca0ca22ad0f4fba60);
+            
+        
+
+        circle_marker_0aa9dea28cd4b80d195724c421c1e037.bindPopup(popup_a62cfe5349f9034c8df2699eaa745ba0)
+        ;
+
+        
+    
+    
+            var circle_marker_4d560426b7915e48b5b1d0f527b9ad24 = L.circleMarker(
+                [55.782176, 37.587162],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+        var popup_2b9f2af6db03be1881c71d91192c1eb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_511cc0a8508098aa0041d4415652ddb5 = $(`<div id="html_511cc0a8508098aa0041d4415652ddb5" style="width: 100.0%; height: 100.0%;">Temple of Alexander St., Patr. Constantinople at the shelter of Vasily of the Caesarean Parish Board of Trustees (not transferred)</div>`)[0];
+                popup_2b9f2af6db03be1881c71d91192c1eb7.setContent(html_511cc0a8508098aa0041d4415652ddb5);
+            
+        
+
+        circle_marker_4d560426b7915e48b5b1d0f527b9ad24.bindPopup(popup_2b9f2af6db03be1881c71d91192c1eb7)
+        ;
+
+        
+    
+    
+            tile_layer_531ec9dded2bd94574a519ac16ee59ab.addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+    
+            tile_layer_531ec9dded2bd94574a519ac16ee59ab.addTo(map_4391dcab19da7ed8468b0fc464d770b3);
+        
+</script>
+</html>
